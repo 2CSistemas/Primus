@@ -1,0 +1,10 @@
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\bin\Debug\AplicacaoPrimusSeguranca.exe.config
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\bin\Debug\AplicacaoPrimusSeguranca.exe
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\bin\Debug\AplicacaoPrimusSeguranca.pdb
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.csprojAssemblyReference.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.Form1.resources
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.Properties.Resources.resources
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.csproj.GenerateResource.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.csproj.CoreCompileInputs.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.exe
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicacaoPrimusSeguranca\obj\Debug\AplicacaoPrimusSeguranca.pdb

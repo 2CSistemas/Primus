@@ -1,0 +1,1929 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenAC.Net.NFSe</name>
+    </assembly>
+    <members>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.#ctor">
+            <summary>
+            Inicializa uma nova instancia da classe <see cref="T:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe"/>.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.EmissaoPathNFSe">
+            <summary>
+            Gets or sets a value indicating whether [emissao path n fe].
+            </summary>
+            <value><c>true</c> if [emissao path n fe]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.PathNFSe">
+            <summary>
+            Gets or sets the path n fe.
+            </summary>
+            <value>The path n fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.PathLote">
+            <summary>
+            Gets or sets the path lote.
+            </summary>
+            <value>The path lote.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.PathRps">
+            <summary>
+            Gets or sets the path lote.
+            </summary>
+            <value>The path lote.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigArquivosNFSe.ArquivoServicoChange">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigCertificadosNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Configuracao.ConfigCertificadosNFSe"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigGeralNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Configuracao.ConfigGeralNFSe"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Configuracao.ConfigNFSe"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigNFSe.PrestadorPadrao">
+            <summary>
+            Gets the prestado padrão.
+            </summary>
+            <value>The prestado padrão.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Configuracao.ConfigWebServicesNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Configuracao.ConfigWebServicesNFSe"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigWebServicesNFSe.Municipio">
+            <summary>
+            Uf do webservice em uso
+            </summary>
+            <value>The uf.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Configuracao.ConfigWebServicesNFSe.CodigoMunicipio">
+            <summary>
+            Codigo do municipio do Webservices em uso
+            </summary>
+            <value>The uf codigo.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.DadosContato.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.DadosContato"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.DadosContato.DDD">
+            <summary>
+            Gets or sets the DDD.
+            </summary>
+            <value>The DDD.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.DadosContato.Telefone">
+            <summary>
+            Gets or sets the telefone.
+            </summary>
+            <value>The telefone.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.DadosContato.Email">
+            <summary>
+            Gets or sets the email.
+            </summary>
+            <value>The email.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.DeducaoPor">
+            <summary>
+            Gets or sets the deducao por.
+            </summary>
+            <value>The deducao por.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.TipoDeducao">
+            <summary>
+            Gets or sets the tipo deducao.
+            </summary>
+            <value>The tipo deducao.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.CPFCNPJReferencia">
+            <summary>
+            Gets or sets the CPFCNPJ referencia.
+            </summary>
+            <value>The CPFCNPJ referencia.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.NumeroNFReferencia">
+            <summary>
+            Gets or sets the numero nf referencia.
+            </summary>
+            <value>The numero nf referencia.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.ValorTotalReferencia">
+            <summary>
+            Gets or sets the valor total referencia.
+            </summary>
+            <value>The valor total referencia.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.PercentualDeduzir">
+            <summary>
+            Gets or sets the percentual deduzir.
+            </summary>
+            <value>The percentual deduzir.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.Deducao.ValorDeduzir">
+            <summary>
+            Gets or sets the valor deduzir.
+            </summary>
+            <value>The valor deduzir.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.IdeNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.IdeRps"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.IdeRps.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.IdeRps"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRps.Numero">
+            <summary>
+            Gets or sets the numero.
+            </summary>
+            <value>The numero.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRps.Serie">
+            <summary>
+            Gets or sets the serie.
+            </summary>
+            <value>The serie.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRps.SeriePrestacao">
+            <summary>
+            Gets or sets the serie prestacao.
+            </summary>
+            <value>The serie prestacao.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRps.Tipo">
+            <summary>
+            Gets or sets the tipo.
+            </summary>
+            <value>The tipo.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRps.DataEmissao">
+            <summary>
+            Gets or sets the data emissao RPS.
+            </summary>
+            <value>The data emissao RPS.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.IdeRps"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.NumeroRps">
+            <summary>
+            Gets or sets the numero.
+            </summary>
+            <value>The numero.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.NumeroNfse">
+            <summary>
+            Gets or sets the numero.
+            </summary>
+            <value>The numero.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.Serie">
+            <summary>
+            Gets or sets the serie.
+            </summary>
+            <value>The serie.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.Tipo">
+            <summary>
+            Gets or sets the tipo.
+            </summary>
+            <value>The tipo.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.DataEmissaoNfseSubstituida">
+            <summary>
+            Gets or sets the data emissao nf se substituida.
+            </summary>
+            <value>The data emissao nf se substituida.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.NFSeSubstituidora">
+            <summary>
+            Gets or sets the nf se substituidora.
+            </summary>
+            <value>The nf se substituidora.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.IdeRpsSubtituida.Signature">
+            <summary>
+            Gets the signature.
+            </summary>
+            <value>The signature.</value>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Nota.NaturezaOperacao">
+            <summary>
+            Classe que contém as naturezas de operação por provedor.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.TributacaoNoMunicipio">
+            <summary>
+            Obtém a Natureza de Operação 1 – Tributação no município.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.TributacaoForaMunicipio">
+            <summary>
+            Obtém a Natureza de Operação 2 - Tributação fora do município.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.Isencao">
+            <summary>
+            Obtém a Natureza de Operação 3 - Isenção.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.Imune">
+            <summary>
+            Obtém a Natureza de Operação 4 - Imune.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.ExigibilidadeSuspJud">
+            <summary>
+            Obtém a Natureza de Operação 5 – Exigibilidade suspensa por decisão judicial.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtABRASF.ExigibilidadeSuspAdm">
+            <summary>
+            Obtém a Natureza de Operação 6 – Exigibilidade suspensa por procedimento administrativo.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtDSF.SemDeducao">
+            <summary>
+            Obtém a Natureza de Operação A – Sem Dedução.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtDSF.ComDeducaoMateriais">
+            <summary>
+            Obtém a Natureza de Operação B – Com Dedução/Materiais.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtDSF.ImuneIsenta">
+            <summary>
+            Obtém a Natureza de Operação C – Imune/Isenta de ISSQN.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtDSF.DevolucaoRemessa">
+            <summary>
+            Obtém a Natureza de Operação D – Devolução/Simples Remessa.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtDSF.Intermediacao">
+            <summary>
+            Obtém a Natureza de Operação J – Intermediação.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.GetValue(System.Int32)">
+            <summary>
+            Retorna o valor da natureza de operação
+            </summary>
+            <param name="key">Chave</param>
+            <returns></returns>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.TributadaNoPrestador">
+            <summary>
+            Obtém a Natureza de Operação tp – Tributada no Prestador.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.TributadaNoTomador">
+            <summary>
+            Obtém a Natureza de Operação tt - Tributada no Tomador.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.Isenta">
+            <summary>
+            Obtém a Natureza de Operação is – Isenta.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.Imune">
+            <summary>
+            Obtém a Natureza de Operação im – Imune.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.NtSigiss.NãoTributada">
+            <summary>
+            Obtém a Natureza de Operação nt – Não Tributada.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.ABRASF">
+            <summary>
+            Obtém as Natureza de Operação da ABRASAF v1.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.Ginfes">
+            <summary>
+            Obtém as Natureza de Operação do Ginfes.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.DSF">
+            <summary>
+            Obtém as Natureza de Operação do DSF.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.NaturezaOperacao.Sigiss">
+            <summary>
+            Obtém as Natura de Operações do Sigis
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServico.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Nota.DadosPrestador)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.NotaServico"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServico.Save(System.String)">
+            <summary>
+            Salvar o xml da Rps/NFSe no determinado arquivo
+            </summary>
+            <param name="path">Caminho onde sera salvo o arquivo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServico.Save(System.IO.Stream)">
+            <summary>
+            Salvar o xml da Rps/NFSe no determinado arquivo
+            </summary>
+            <param name="stream">Stream onde sera salvo o xml</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServico.GetXml">
+            <summary>
+            Gera o Xml Da Rps
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServicoCollection.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe)">
+            <summary>
+            Inicializa uma nova instacia da classe <see cref="T:OpenAC.Net.NFSe.Nota.NotaServicoCollection" />.
+            </summary>
+            <param name="config">The configuration.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServicoCollection.AddNew">
+            <summary>
+            Adiciona uma nova nota fiscal na coleção.
+            </summary>
+            <returns>T.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServicoCollection.Load(System.String,System.Text.Encoding)">
+            <summary>
+            Carrega a NFSe/RPS do arquivo.
+            </summary>
+            <param name="xml">caminho do arquivo XML ou string com o XML.</param>
+            <param name="encoding">encoding do XML.</param>
+            <returns>NotaServico carregada.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServicoCollection.Load(System.IO.Stream)">
+            <summary>
+            Carrega a NFSe/RPS do xml.
+            </summary>
+            <param name="stream">Stream do XML.</param>
+            <returns>NotaServico carregada.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.NotaServicoCollection.Load(System.Xml.Linq.XDocument)">
+            <summary>
+            Carrega a NFSe/RPS do XMLDocument.
+            </summary>
+            <param name="xml">XMLDocument da NFSe/RPS.</param>
+            <returns>NotaServico carregada.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Nota.Servico.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Nota.Servico"/> class.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Nota.TipoTomador">
+            <summary>
+            Classe que contém os tipos de Tomador por provedor.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.PFNI">
+            <summary>
+            Obtém a Tipo de Tomador 1 – Pessoa Física não Identificada.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.PessoaFisica">
+            <summary>
+            Obtém a Tipo de Tomador 2 - Pessoa Física.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.JuridicaDoMunicipio">
+            <summary>
+            Obtém a Tipo de Tomador 3 – Pessoa Jurídica do Município.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.JuridicaForaMunicipio">
+            <summary>
+            Obtém a Tipo de Tomador 4 – Pessoa Jurídica Fora do Município.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.JuridicaForaPais">
+            <summary>
+            Obtém a Tipo de Tomador 5 – Pessoa Jurídica Fora do País.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.TipoSigiss.ProdutorRuralOuPolitico">
+            <summary>
+            Obtém a Tipo de Tomador 6 – Produtor Rural ou Político.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Nota.TipoTomador.Sigiss">
+            <summary>
+            Obtém os Tipos de Tomador Sigiss.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.OpenDANFSeBase">
+            <summary>
+            Classe base para impressão de DANFSe
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenDANFSeBase.Imprimir(OpenAC.Net.NFSe.Nota.NotaServico[])">
+            <summary>
+            Imprime as NFSe/RPS.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenDANFSeBase.ImprimirPDF(OpenAC.Net.NFSe.Nota.NotaServico[])">
+            <summary>
+            Imprimirs the PDF.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenDANFSeBase.ImprimirPDF(OpenAC.Net.NFSe.Nota.NotaServico[],System.IO.Stream)">
+            <summary>
+            Imprimirs the PDF.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenDANFSeBase.ImprimirHTML(OpenAC.Net.NFSe.Nota.NotaServico[])">
+            <summary>
+            Imprimirs the PDF.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenDANFSeBase.ImprimirHTML(OpenAC.Net.NFSe.Nota.NotaServico[],System.IO.Stream)">
+            <summary>
+            Imprimirs the PDF.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.OpenNFSe.Configuracoes">
+            <summary>
+            Configurações do Componente
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.OpenNFSe.NotasServico">
+            <summary>
+            Coleção de NFSe para processar e/ou processadas
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.Enviar(System.Int32,System.Boolean)">
+            <summary>
+            Envia as NFSe para o provedor da cidade.
+            </summary>
+            <param name="lote">Numero do lote.</param>
+            <param name="sincrono">Se for informado <c>true</c> o envio será sincrono.</param>
+            <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultarSituacao(System.Int32,System.String)">
+             <summary>
+             Consulta a situação do lote de RPS.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="lote">The lote.</param>
+             <param name="protocolo">The protocolo.</param>
+             <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultarLoteRps(System.Int32,System.String)">
+             <summary>
+             Consulta o lote de Rps
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="protocolo">The protocolo.</param>
+             <param name="lote">The lote.</param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultarSequencialRps(System.String)">
+             <summary>
+             Consulta o numero de sequencia dos lotes de RPS.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="serie">The serie.</param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSeRps(System.Int32,System.String,OpenAC.Net.NFSe.Nota.TipoRps)">
+             <summary>
+             Consulta a NFSe/RPS que atende os filtros informados.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="numero">The numero.</param>
+             <param name="serie">The serie.</param>
+             <param name="tipo">The tipo.</param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSeRps(System.Int32,System.String,OpenAC.Net.NFSe.Nota.TipoRps,System.Int32,System.Int32)">
+             <summary>
+             Consulta a NFSe/RPS que atende os filtros informados.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="numero">The numero.</param>
+             <param name="serie">The serie.</param>
+             <param name="tipo">The tipo.</param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSe(System.Int32,System.Int32)">
+             <summary>
+             Consulta as NFSe de acordo com os filtros.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="numeroNfse">The numero nfse.</param>
+             <param name="pagina"></param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSe(System.Int32,System.String)">
+             <summary>
+             Consulta as NFSe de acordo com os filtros.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="numeroNfse">The numero nfse.</param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSePeriodo(System.DateTime,System.DateTime)">
+             <summary>
+             Consulta as NFSe de acordo com os filtros.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="inicio"></param>
+             <param name="fim"></param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSeTomador(System.String,System.String)">
+             <summary>
+             Consulta as NFSe de acordo com os filtros.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="cnpjTomador"></param>
+             <param name="imTomador"></param>
+             <returns>RetornoWebservice.</returns>
+             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.ConsultaNFSeIntermediario(System.String,System.String,System.String)">
+             <summary>
+             Consulta as NFSe de acordo com os filtros.
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="cnpjInter"></param>
+             <param name="imInter"></param>
+             <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.CancelarNFSe(System.String,System.String,System.String)">
+             <summary>
+             Cancela uma NFSe
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="codigoCancelamento">O codigo de cancelamento.</param>
+             <param name="numeroNFSe">O numero da NFSe.</param>
+             <param name="motivo">O motivo.</param>
+             <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.CancelarNFSe(System.String,System.String,System.String,System.Decimal,System.String)">
+             <summary>
+             Cancela uma NFSe
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="codigoCancelamento">O codigo de cancelamento.</param>
+             <param name="numeroNFSe">O numero da NFSe.</param>
+             <param name="motivo">O motivo.</param>
+             <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.CancelarNFSeLote(System.Int32)">
+             <summary>
+             Cancela as NFSe que estão carregadas na lista.
+            
+             Obs.: Adicionar o motivo de cancelamento nas notas da lista.
+                   Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="lote">Identificação do lote.</param>
+             <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.SubstituirNFSe(System.String,System.String,System.String)">
+             <summary>
+             Substitui uma NFSe
+            
+             Obs.: Nem todos provedores suportam este metodo.
+             </summary>
+             <param name="codigoCancelamento">O codigo de cancelamento.</param>
+             <param name="numeroNFSe">O numero da NFSe.</param>
+             <param name="motivo">O motivo.</param>
+             <returns>RetornoWebservice.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.OnInitialize">
+            <summary>
+            Função executada na inicialização do componente
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.OpenNFSe.OnDisposing">
+            <summary>
+            Função executada na desinicialização do componente
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.Evento.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.Evento"/> class.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.IServiceClient">
+            <summary>
+            Interface que define os métodos que os serviços de NFSe precisam ter.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.MunicipiosNFSe">
+            <summary>
+            Classe usada apenas para salvar o xml dos Municipios.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.#ctor(OpenAC.Net.NFSe.Providers.ProviderBase,OpenAC.Net.NFSe.Providers.TipoUrl)">
+             <summary>
+            
+             </summary>
+             <param name="provider"></param>
+             <param name="tipoUrl"></param>
+             <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.Provider">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.EhHomologação">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.PrefixoEnvio">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.PrefixoResposta">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.EnvelopeEnvio">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeRestServiceClient.EnvelopeRetorno">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeServiceClient.#ctor(OpenAC.Net.NFSe.Providers.ProviderBase,OpenAC.Net.NFSe.Providers.TipoUrl)">
+             <summary>
+            
+             </summary>
+             <param name="provider"></param>
+             <param name="tipoUrl"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeServiceClient.#ctor(OpenAC.Net.NFSe.Providers.ProviderBase,OpenAC.Net.NFSe.Providers.TipoUrl,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+             <summary>
+            
+             </summary>
+             <param name="provider"></param>
+             <param name="tipoUrl"></param>
+             <param name="certificado"></param>
+             <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.Provider">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.EhHomologação">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.PrefixoEnvio">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.PrefixoResposta">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.EnvelopeEnvio">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.NFSeServiceClient.EnvelopeRetorno">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeServiceClient.GravarSoap(System.String,System.String)">
+            <summary>
+            Salvar o arquivo xml no disco de acordo com as propriedades.
+            </summary>
+            <param name="conteudoArquivo"></param>
+            <param name="nomeArquivo"></param>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeServiceClient.BeforeSendDFeRequest(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.NFSeServiceClient.AfterReceiveDFeReply(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.Codigo">
+            <summary>
+            Define ou retorna o codigo IBGE do municipio
+            </summary>
+            <value>The codigo.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.CodigoSiafi">
+            <summary>
+            Define ou retorna o codigo Siafi do municipio
+            Obrigatorio para municipios com provedor DSF.
+            </summary>
+            <value>The codigo siafi.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.IdEntidade">
+            <summary>
+            Define ou retorna o identificador do município no provedor Equiplano
+            </summary>
+            <value>The Id Entidade.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.Nome">
+            <summary>
+            Define ou retorna o nome do municipio
+            </summary>
+            <value>The nome.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.UF">
+            <summary>
+            Define ou retorna a UF do municipio.
+            </summary>
+            <value>The uf.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.Provedor">
+            <summary>
+            Define ou retorna o provedor de NFSe.
+            </summary>
+            <value>The provedor.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.TamanhoIm">
+            <summary>
+            Define ou retorna o tamanho da inscrição municipal
+            Para validação em alguns provedores
+            </summary>
+            <value>The tamanho im.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.UrlHomologacao">
+            <summary>
+            Lista de url de homologação dos serviços.
+            </summary>
+            <value>The URL homologacao.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.UrlProducao">
+            <summary>
+            Lista de url de produção dos serviços.
+            </summary>
+            <value>The URL producao.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe.Clone">
+            <summary>
+            Cria um novo objeto que é uma copia da instancia atual.
+            </summary>
+            <returns>T.</returns>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF V1
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.PrepararSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.AssinarSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.TratarRetornoSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.GetNamespace">
+            <summary>
+            Retorna o namespace para ser usado no Xml.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.GetSchema(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.GerarCabecalho">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF.MensagemErro(OpenAC.Net.NFSe.Providers.RetornoWebservice,System.Xml.Linq.XContainer,System.String,System.String)">
+            <summary>
+            Processa as mensagens de retorno.
+            </summary>
+            <param name="retornoWs"></param>
+            <param name="xmlRet"></param>
+            <param name="xmlTag"></param>
+            <param name="elementName"></param>
+            <param name="messageElement"></param>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF200">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF 2.02
+            </summary>
+            <seealso cref="T:OpenAC.Net.NFSe.Providers.ProviderBase" />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF201"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.LoadXml(System.Xml.Linq.XDocument)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.WriteXmlRps(OpenAC.Net.NFSe.Nota.NotaServico,System.Boolean,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.PrepararSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.AssinarSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.TratarRetornoSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.GetSchema(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.GetVersao">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.GetNamespace">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.GerarCabecalho">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF200.MensagemErro(OpenAC.Net.NFSe.Providers.RetornoWebservice,System.Xml.Linq.XContainer,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="retornoWs"></param>
+             <param name="xmlRet"></param>
+             <param name="xmlTag"></param>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF201">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF 2.02
+            </summary>
+            <seealso cref="T:OpenAC.Net.NFSe.Providers.ProviderBase" />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF201.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF201"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF201.LoadPrestador(OpenAC.Net.NFSe.Nota.NotaServico,System.Xml.Linq.XElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF201.AssinarEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF201.AssinarEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF202">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF 2.02
+            </summary>
+            <seealso cref="T:OpenAC.Net.NFSe.Providers.ProviderBase" />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF202.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF202"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF203">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF 2.04
+            </summary>
+            <seealso cref="T:OpenAC.Net.NFSe.Providers.ProviderBase" />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF203.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF203"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF203.LoadTomador(OpenAC.Net.NFSe.Nota.NotaServico,System.Xml.Linq.XElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF203.LoadPrestador(OpenAC.Net.NFSe.Nota.NotaServico,System.Xml.Linq.XElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF203.LoadIntermediario(OpenAC.Net.NFSe.Nota.NotaServico,System.Xml.Linq.XElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF203.WritePrestador(OpenAC.Net.NFSe.Nota.NotaServico)">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderABRASF204">
+            <summary>
+            Classe base para trabalhar com provedores que usam o padrão ABRASF 2.04
+            </summary>
+            <seealso cref="T:OpenAC.Net.NFSe.Providers.ProviderBase" />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF204.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderABRASF204"/> class.
+            </summary>
+            <param name="config">The configuration.</param>
+            <param name="municipio">The municipio.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF204.WriteRps(OpenAC.Net.NFSe.Nota.NotaServico)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderABRASF204.LoadRps(OpenAC.Net.NFSe.Nota.NotaServico,System.Xml.Linq.XElement)">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderBase">
+            <summary>
+            Class ProviderBase.
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgMaior">
+            <summary>
+            The er r_ ms g_ maior
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgMenor">
+            <summary>
+            The er r_ ms g_ menor
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgVazio">
+            <summary>
+            The er r_ ms g_ vazio
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgInvalido">
+            <summary>
+            The er r_ ms g_ invalido
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgMaximoDecimais">
+            <summary>
+            The er r_ ms g_ maxim o_ decimais
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgMaiorMaximo">
+            <summary>
+            The er r_ ms g_ maio r_ maximo
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgFinalMenorInicial">
+            <summary>
+            The er r_ ms g_ fina l_ meno r_ inicial
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgArquivoNaoEncontrado">
+            <summary>
+            The er r_ ms g_ arquiv o_ na o_ encontrado
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgSomenteUm">
+            <summary>
+            The er r_ ms g_ soment e_ um
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.ErrMsgMenorMinimo">
+            <summary>
+            The er r_ ms g_ meno r_ minimo
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.DscCnpj">
+            <summary>
+            The ds c_ CNPJ
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.NFSe.Providers.ProviderBase.DscCpf">
+            <summary>
+            The ds c_ CPF
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.#ctor(OpenAC.Net.NFSe.Configuracao.ConfigNFSe,OpenAC.Net.NFSe.Providers.OpenMunicipioNFSe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.NFSe.Providers.ProviderBase"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.Finalize">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderBase.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderBase.ListaDeAlertas">
+            <summary>
+            Gets the lista de alertas.
+            </summary>
+            <value>The lista de alertas.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderBase.FormatoAlerta">
+            <summary>
+            Gets or sets the formato alerta.
+            </summary>
+            <value>The formato alerta.</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderBase.RetirarAcentos">
+            <summary>
+            Gets or sets a value indicating whether [retirar acentos].
+            </summary>
+            <value><c>true</c> if [retirar acentos]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.LoadXml(System.String,System.Text.Encoding)">
+            <summary>
+            Carrega o xml da NFSe/Rps.
+            </summary>
+            <param name="xml">Local do arquivo Xml</param>
+            <param name="encoding">Enconde para utilizar na leitura do arquivo</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.LoadXml(System.IO.Stream)">
+            <summary>
+            Carrega o xml da NFSe/Rps.
+            </summary>
+            <param name="stream">Stream contendo os dados do arquivo xml.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.LoadXml(System.Xml.Linq.XDocument)">
+            <summary>
+            Carrega o xml da NFSe/Rps.
+            </summary>
+            <param name="xml">Classe XDocument com um xml carregado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.WriteXmlRps(OpenAC.Net.NFSe.Nota.NotaServico,System.Boolean,System.Boolean)">
+            <summary>
+            Retorna o xml da Rps em formato string.
+            </summary>
+            <param name="nota"></param>
+            <param name="identado"></param>
+            <param name="showDeclaration"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.WriteXmlNFSe(OpenAC.Net.NFSe.Nota.NotaServico,System.Boolean,System.Boolean)">
+            <summary>
+            Retorna o xml da NFSe em formato string.
+            </summary>
+            <param name="nota"></param>
+            <param name="identado"></param>
+            <param name="showDeclaration"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.Enviar(System.Int32,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Enviar coleção de Rps para o provedor de forma assincrona.
+            </summary>
+            <param name="lote"></param>
+            <param name="notas"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.EnviarSincrono(System.Int32,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Enviar coleção de Rps para o provedor de forma sincrona.
+            </summary>
+            <param name="lote"></param>
+            <param name="notas"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ConsultarSituacao(System.Int32,System.String)">
+            <summary>
+            Consulta a situação do lote.
+            </summary>
+            <param name="lote"></param>
+            <param name="protocolo"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ConsultarLoteRps(System.Int32,System.String,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Consultar o lote de rps.
+            </summary>
+            <param name="lote"></param>
+            <param name="protocolo"></param>
+            <param name="notas"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ConsultarSequencialRps(System.String)">
+            <summary>
+            Consulta o número da ultima nota fiscal de serviço emitida da serie informada.
+            </summary>
+            <param name="serie"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ConsultaNFSeRps(System.Int32,System.String,OpenAC.Net.NFSe.Nota.TipoRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection,System.Int32,System.Int32)">
+            <summary>
+            Consulta uma NFSe usando o número do RPS.
+            </summary>
+            <param name="numero"></param>
+            <param name="serie"></param>
+            <param name="tipo"></param>
+            <param name="notas"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ConsultaNFSe(OpenAC.Net.NFSe.Nota.NotaServicoCollection,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Consulta uma ou mais NFSe de acordo com os filtros.
+            </summary>
+            <param name="notas"></param>
+            <param name="inicio"></param>
+            <param name="fim"></param>
+            <param name="numeroNfse"></param>
+            <param name="pagina"></param>
+            <param name="cnpjTomador"></param>
+            <param name="imTomador"></param>
+            <param name="nomeInter"></param>
+            <param name="cnpjInter"></param>
+            <param name="imInter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.CancelarNFSe(System.String,System.String,System.String,System.Decimal,System.String,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Cancela uma NFSe.
+            </summary>
+            <param name="codigoCancelamento"></param>
+            <param name="numeroNFSe"></param>
+            <param name="motivo"></param>
+            <param name="notas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.CancelarNFSeLote(System.Int32,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Cancela um lote de NFSe.
+            </summary>
+            <param name="lote"></param>
+            <param name="notas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.SubstituirNFSe(OpenAC.Net.NFSe.Nota.NotaServicoCollection,System.String,System.String,System.String)">
+            <summary>
+            Substituie uma NFSe por outra.
+            </summary>
+            <param name="notas"></param>
+            <param name="codigoCancelamento"></param>
+            <param name="numeroNFSe"></param>
+            <param name="motivo"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Gera o xml de envio para o serviço de enviar.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+            <param name="lote"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Gera o xml de envio para o serviço de enviar sincrono.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+            <param name="lote"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <summary>
+            Gera o xml de envio para o serviço de consultar situação.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="lote"></param>
+            <param name="protocolo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <summary>
+            Gera o xml de envio para o serviço de consultar lote rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <summary>
+            Gera o xml de envio para o serviço de consultar sequencial rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Gera o xml de envio para o serviço de consultar NFSe por RPS.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <summary>
+            Gera o xml de envio para o serviço consultar NFSe.
+            </summary>
+            <param name="notas"></param>
+            <param name="inicio"></param>
+            <param name="fim"></param>
+            <param name="numeroNfse"></param>
+            <param name="pagina"></param>
+            <param name="cnpjTomador"></param>
+            <param name="imTomador"></param>
+            <param name="nomeInter"></param>
+            <param name="cnpjInter"></param>
+            <param name="imInter"></param>
+            <param name="serie"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <summary>
+            Gera o xml de envio para o serviço cancelar NFSe.
+            </summary>
+            <param name="notas"></param>
+            <param name="codigoCancelamento"></param>
+            <param name="numeroNFSe"></param>
+            <param name="motivo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Gera o xml de envio para o serviço cancelar NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+            <param name="lote"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrepararSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Gera o xml de envio para o serviço substituir NFSe.
+            </summary>
+            <param name="notas"></param>
+            <param name="codigoCancelamento"></param>
+            <param name="numeroNFSe"></param>
+            <param name="motivo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <summary>
+            Metodo para assinar o xml do serviço enviar.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar)">
+            <summary>
+            Metodo para assinar o xml do serviço enviar sincrono.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <summary>
+            Metodo para assinar o xml do serviço consultar situação.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps)">
+            <summary>
+            Metodo para assinar o xml do serviço consultar lote rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <summary>
+            Metodo para assinar o xml do serviço consultar sequencial rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps)">
+            <summary>
+            Metodo para assinar o xml do serviço consultar NFSe por RPS.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe)">
+            <summary>
+            Metodo para assinar o xml do serviço consultar NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar)">
+            <summary>
+            Metodo para assinar o xml do serviço cancelar NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote)">
+            <summary>
+            Metodo para assinar o xml do serviço cancelar NFSe lote.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AssinarSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe)">
+            <summary>
+            Metodo para assinar o xml do serviço substituir NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoEnviar(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do enviar.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoEnviarSincrono(OpenAC.Net.NFSe.Providers.RetornoEnviar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do enviar sincrono.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoConsultarSituacao(OpenAC.Net.NFSe.Providers.RetornoConsultarSituacao)">
+            <summary>
+            Trata o retorno do serviço de consultar situação.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoConsultarLoteRps(OpenAC.Net.NFSe.Providers.RetornoConsultarLoteRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço de consultar lote Rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoConsultarSequencialRps(OpenAC.Net.NFSe.Providers.RetornoConsultarSequencialRps)">
+            <summary>
+            Trata o retorno do serviço de consultar sequencial Rps.
+            </summary>
+            <param name="retornoWebservice"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoConsultarNFSeRps(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSeRps,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço de consultar situação.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoConsultarNFSe(OpenAC.Net.NFSe.Providers.RetornoConsultarNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço consulta NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoCancelarNFSe(OpenAC.Net.NFSe.Providers.RetornoCancelar,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço cancelar NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoCancelarNFSeLote(OpenAC.Net.NFSe.Providers.RetornoCancelarNFSeLote,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço cancelar NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.TratarRetornoSubstituirNFSe(OpenAC.Net.NFSe.Providers.RetornoSubstituirNFSe,OpenAC.Net.NFSe.Nota.NotaServicoCollection)">
+            <summary>
+            Trata o retorno do serviço substituir NFSe.
+            </summary>
+            <param name="retornoWebservice"></param>
+            <param name="notas"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GetClient(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <summary>
+            Retorna o cliente de comunicação com o webservice.
+            </summary>
+            <param name="tipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GerarCabecalho">
+            <summary>
+            Retorna o cabeçalho da mensagem.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GetSchema(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <summary>
+            Retorna o schema xml para validação.
+            </summary>
+            <param name="tipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GetUrl(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <summary>
+            Retorna a URL para o tipo de serviço.
+            </summary>
+            <param name="url">The URL.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.PrecisaValidarSchema(OpenAC.Net.NFSe.Providers.TipoUrl)">
+            <summary>
+            Determinar ou não se deve validar o xml antes de enviar ao servidor.
+            </summary>
+            <param name="tipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.WriteSignature(OpenAC.Net.DFe.Core.Document.DFeSignature)">
+            <summary>
+            Retornar o XML da assinatura ou nulo caso não tenha nada.
+            </summary>
+            <param name="signature">The signature.</param>
+            <returns>XElement.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.LoadSignature(System.Xml.Linq.XElement)">
+            <summary>
+            Carrega a assinatura do Xml.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>DFeSignature.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AdicionarTagCNPJCPF(System.String,System.String,System.String,System.String,System.Xml.Linq.XNamespace)">
+            <summary>
+            Adicionars the tag CNPJCPF.
+            </summary>
+            <param name="id"></param>
+            <param name="tagCPF">The i d1.</param>
+            <param name="tagCNPJ">The i d2.</param>
+            <param name="valor">The CNPJCPF.</param>
+            <param name="ns"></param>
+            <returns>XmlElement.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AdicionarTag(OpenAC.Net.DFe.Core.Serializer.TipoCampo,System.String,System.String,System.Xml.Linq.XNamespace,System.Int32,System.Int32,OpenAC.Net.NFSe.Providers.ProviderBase.Ocorrencia,System.Object,System.String)">
+            <summary>
+            Adicionars the tag.
+            </summary>
+            <param name="tipo">The tipo.</param>
+            <param name="id">The identifier.</param>
+            <param name="tag">The tag.</param>
+            <param name="min">The minimum.</param>
+            <param name="max">The maximum.</param>
+            <param name="ocorrencia">The ocorrencia.</param>
+            <param name="valor">The valor.</param>
+            <param name="descricao">The descricao.</param>
+            <param name="ns"></param>
+            <param name="nsAtt"></param>
+            <returns>XmlElement.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.AdicionarTag(OpenAC.Net.DFe.Core.Serializer.TipoCampo,System.String,System.String,System.Int32,System.Int32,OpenAC.Net.NFSe.Providers.ProviderBase.Ocorrencia,System.Object,System.String)">
+            <summary>
+            Adicionars the tag.
+            </summary>
+            <param name="tipo">The tipo.</param>
+            <param name="id">The identifier.</param>
+            <param name="tag">The tag.</param>
+            <param name="min">The minimum.</param>
+            <param name="max">The maximum.</param>
+            <param name="ocorrencia">The ocorrencia.</param>
+            <param name="valor">The valor.</param>
+            <param name="descricao">The descricao.</param>
+            <returns>XmlElement.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.WAlerta(System.String,System.String,System.String,System.String)">
+            <summary>
+            Ws the alerta.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="tag">The tag.</param>
+            <param name="descricao">The descricao.</param>
+            <param name="alerta">The alerta.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.ValidarSchema(OpenAC.Net.NFSe.Providers.RetornoWebservice,System.String)">
+            <summary>
+            Valida o XML de acordo com o schema.
+            </summary>
+            <param name="retorno"></param>
+            <param name="schema">O schema que será usado na verificação.</param>
+            <returns>Se estiver tudo OK retorna null, caso contrário as mensagens de alertas e erros.</returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GravarRpsEmDisco(System.String,System.String,System.DateTime)">
+            <summary>
+            Grava o xml da Rps no disco
+            </summary>
+            <param name="conteudoArquivo"></param>
+            <param name="nomeArquivo"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GravarNFSeEmDisco(System.String,System.String,System.DateTime)">
+            <summary>
+            Grava o xml da NFSe no disco
+            </summary>
+            <param name="conteudoArquivo"></param>
+            <param name="nomeArquivo"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.GravarArquivoEmDisco(System.String,System.String)">
+            <summary>
+            Grava o xml de comunicação com o webservice no disco
+            </summary>
+            <param name="conteudoArquivo"></param>
+            <param name="nomeArquivo"></param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderBase.Dispose(System.Boolean)">
+            <summary>
+            Implement IDisposable Interface.
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.ProviderManager">
+            <summary>
+            Classe responsável por criar uma nova instancia do provedor
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderManager.Municipios">
+            <summary>
+            Municipios cadastrados no OpenNFSe
+            </summary>
+            <value>Os municipios</value>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.ProviderManager.Providers">
+            <summary>
+            Provedores cadastrados no OpenNFSe
+            </summary>
+            <value>Os provedores</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderManager.Save(System.String)">
+            <summary>
+            Salva o arquivo de cidades.
+            </summary>
+            <param name="path">Caminho para salvar o arquivo</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderManager.Save(System.IO.Stream)">
+            <summary>
+            Salva o arquivo de cidades.
+            </summary>
+            <param name="stream">O stream.</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderManager.Load(System.String,System.Boolean)">
+            <summary>
+            Carrega o arquivo de cidades.
+            </summary>
+            <param name="path">The path.</param>
+            <param name="clean">if set to <c>true</c> [clean].</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderManager.Load(System.IO.Stream,System.Boolean)">
+            <summary>
+            Carrega o arquivo de cidades.
+            </summary>
+            <param name="stream">The stream.</param>
+            <param name="clean">if set to <c>true</c> [clean].</param>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.ProviderManager.GetProvider(OpenAC.Net.NFSe.Configuracao.ConfigNFSe)">
+            <summary>
+            Retorna o provedor para o municipio nas configurações informadas.
+            </summary>
+            <param name="config">A configuração.</param>
+            <returns>Provedor NFSe.</returns>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.RetornoWebservice.Sucesso">
+            <summary>
+            Informa se a comunicação ocorreu com sucesso ou não.
+            </summary>
+            <value><c>true</c> se não teve erro, senão <c>false</c>.</value>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.#ctor(OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.#ctor(System.String,System.String,System.ServiceModel.Channels.MessageVersion)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.#ctor(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.#ctor(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.MessageVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageBindingElement.ReaderQuotas">
+            <summary>
+            This encoder does not enforces any quotas for the unsecure messages. The
+            quotas are enforced for the secure portions of messages when this encoder
+            is used in a binding that is configured with security.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageEncoderFactory.Encoder">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageEncoderFactory.MessageVersion">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.#ctor(OpenAC.Net.NFSe.Providers.WsTextMessageEncoderFactory)">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.ContentType">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.MediaType">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.MessageVersion">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.ReadMessage(System.ArraySegment{System.Byte},System.ServiceModel.Channels.BufferManager,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.ReadMessage(System.IO.Stream,System.Int32,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.WriteMessage(System.ServiceModel.Channels.Message,System.Int32,System.ServiceModel.Channels.BufferManager,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.WsTextMessageEncoder.WriteMessage(System.ServiceModel.Channels.Message,System.IO.Stream)">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.NFSe.Providers.XmlCData">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.NFSe.Providers.XmlCData.Value">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.GetSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.GenerateSchema(System.Xml.Schema.XmlSchemaSet)">
+             <summary>
+            
+             </summary>
+             <param name="xs"></param>
+             <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.WriteXml(System.Xml.XmlWriter)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.ReadXml(System.Xml.XmlReader)">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.ToString">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.op_Implicit(OpenAC.Net.NFSe.Providers.XmlCData)~System.String">
+             <summary>
+            
+             </summary>
+             <param name="value"></param>
+             <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.NFSe.Providers.XmlCData.op_Implicit(System.String)~OpenAC.Net.NFSe.Providers.XmlCData">
+             <summary>
+            
+             </summary>
+             <param name="value"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

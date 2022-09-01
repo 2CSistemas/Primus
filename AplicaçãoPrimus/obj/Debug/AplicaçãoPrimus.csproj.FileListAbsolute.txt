@@ -1,0 +1,11 @@
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\bin\Debug\AplicaçãoPrimus.exe.config
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\bin\Debug\AplicaçãoPrimus.exe
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\bin\Debug\AplicaçãoPrimus.pdb
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.FormProdutosFavoritos.resources
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.Properties.Resources.resources
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.csproj.GenerateResource.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.csproj.CoreCompileInputs.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.exe
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.pdb
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.csprojAssemblyReference.cache
+C:\projetos\primus\CworkGestaoParceiros_3.28.030\AplicaçãoPrimus\obj\Debug\AplicaçãoPrimus.Form1.resources
